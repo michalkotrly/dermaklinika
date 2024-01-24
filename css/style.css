@@ -253,12 +253,21 @@
 
 	ul.default {
 		margin: 0;
-		padding: 0;
+		padding-left: 2em;
+		padding-right: 2em;
 		list-style: none;
+		
 	}
 
 		ul.default li {
 			padding: 0.40em 0em;
+			
+		}
+
+		ul.default a {
+			color: white;
+			text-decoration: underline;
+			font-size: 1.3em;
 		}
 
 	ul.icons {
@@ -472,7 +481,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 2em 0em 1em 0em;
+		padding: 1em 0em 1em 0em;
 	}
 
 		.wrapper.style1 {
@@ -527,7 +536,7 @@
 			}
 
 		.wrapper.style3 {
-			padding-bottom: 6em;
+			padding-bottom: 1em;
 			background: #82b440;
 			text-align: center;
 			color: white;
@@ -724,8 +733,9 @@
 		}
 
 		#main #sidebar section {
-			margin-top: 4em;
+			margin-top: 1em;
 			background: #82b440;
+			
 		}
 
 			#main #sidebar section:first-child {
@@ -734,11 +744,14 @@
 
 		#main #sidebar .major {
 			padding-bottom: 2em;
+			padding-top: 2em;
+			padding-left: 2em;
 		}
 
 			#main #sidebar .major h2 {
 				font-size: 1.8em;
-			}
+				color: white;
+						}
 
 /* Footer */
 
