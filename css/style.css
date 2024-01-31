@@ -10,7 +10,8 @@
 /* Basic */
 
 	body {
-		background: #222222;
+		/* background: #222222; */
+		background : #82b440;
 	}
 .image.fit img {
 	width: 100%;
@@ -383,7 +384,11 @@
 /* Tables */
 
 	table {
-		width: 100%;
+		width: 70%;
+		margin-left: auto;
+  		margin-right: auto;
+		text-transform: none;
+		
 	}
 
 		table.default {
@@ -553,7 +558,14 @@
 
 		.wrapper.style4 {
 			background: white;
+			
 		}
+			.wrapper.style4 p{
+				text-transform: none;
+			}
+			.wrapper.style4 h3 {
+				color: #82b440;
+			}
 
 		.wrapper.style5 {
 			background: #82b440;
