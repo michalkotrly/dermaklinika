@@ -94,9 +94,11 @@
 	}
 
 	hr {
+		/* background-color: #82b440; */
 		border-top: solid 1px #82b440;
-		border: 0;
-		margin-bottom: 1.5em;
+		/* border: 0;*/
+		margin-right:15em;
+		margin-left: 15em;
 	}
 
 	blockquote {
@@ -436,7 +438,7 @@
 		letter-spacing: 1px;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: none;
 		font-size: 1.4em;
 		-moz-transition: all 0.35s ease-in-out;
 		-webkit-transition: all 0.35s ease-in-out;
@@ -497,7 +499,7 @@
 		}
 
 		.wrapper.style2 {
-			background: #f2f2f2;
+			background: white;
 		}
 
 			.wrapper.style2 .major {
