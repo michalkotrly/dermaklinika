@@ -57,6 +57,9 @@
 
 	p {
 		line-height: 1.8em;
+		/* width: 70%;
+		text-align: center;
+		margin: auto; */
 	}
 
 		p.medium {
@@ -112,9 +115,10 @@
 	}
 
 	header.major {
-		padding-bottom: 3em;
+		padding-bottom: 2em;
+		line-height: normal;
 		text-align: center;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 		header.major h2 {
@@ -362,7 +366,7 @@
 		ul.special-icons h3 {
 			margin-bottom: 0.80em;
 			line-height: 2em;
-			text-transform: uppercase;
+			text-transform: none;
 			font-weight: 700;
 			font-size: 1.2em;
 		}
@@ -511,7 +515,7 @@
 					margin-bottom: 0.70em;
 					letter-spacing: 1px;
 					line-height: 1.4em;
-					text-transform: capitalize;
+					text-transform: none;
 					font-size: 1.8em;
 					font-weight: 400;
 				}
@@ -519,14 +523,14 @@
 				.wrapper.style2 .major .byline {
 					letter-spacing: normal;
 					line-height: 1.6em;
-					text-transform: capitalize;
+					text-transform: none;
 					font-size: 1.4em;
 				}
 
 				.wrapper.style2 .major .number {
 					letter-spacing: normal;
 					line-height: 2em;
-					text-transform: capitalize;
+					text-transform: none;
 					font-size: 1.8em;
 					color: #82b440;
 				}
