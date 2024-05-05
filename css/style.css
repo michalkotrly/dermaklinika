@@ -10,8 +10,8 @@
 /* Basic */
 
 	body {
-		/* background: #222222; */
-		background : #82b440;
+		 background: #222222; 
+		background : #82b440; 
 	}
 .image.fit img {
 	width: 100%;
@@ -596,7 +596,7 @@
 	#header {
 		color: white;
 		height: 4em;
-		background: rgba(58, 158, 0, 0.5);
+		background: rgba(58, 158, 0, 0.836);
 	}
 
 		#header .container {
